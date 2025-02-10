@@ -1,0 +1,1 @@
+This bug occurs when using Expo's `Camera` component with certain aspect ratios.  The preview sometimes renders incorrectly, showing a distorted or cropped image. This is particularly noticeable when the aspect ratio isn't a simple ratio like 1:1 or 4:3. For example, an aspect ratio of 16:9 sometimes shows a significant portion of the image cut off or stretched.
